@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080503FC2499A68F0061B0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080503FB2499A68F0061B0B5 /* AppDelegate.swift */; };
+		080503FE2499A68F0061B0B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080503FD2499A68F0061B0B5 /* SceneDelegate.swift */; };
+		080504002499A68F0061B0B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080503FF2499A68F0061B0B5 /* ContentView.swift */; };
+		080504022499A6910061B0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080504012499A6910061B0B5 /* Assets.xcassets */; };
+		080504052499A6910061B0B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080504042499A6910061B0B5 /* Preview Assets.xcassets */; };
+		080504082499A6910061B0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080504062499A6910061B0B5 /* LaunchScreen.storyboard */; };
+		080504132499A6EE0061B0B5 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080504122499A6EE0061B0B5 /* UserViewModel.swift */; };
+		BF2D97A5D1524EF08CE0C784 /* Pods_SwiftUi_MVVM_Combine_SignUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0575A9E2A648DE6C04B156 /* Pods_SwiftUi_MVVM_Combine_SignUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080503F82499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUi_MVVM_Combine_SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080503FB2499A68F0061B0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080503FD2499A68F0061B0B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		080503FF2499A68F0061B0B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		080504012499A6910061B0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080504042499A6910061B0B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		080504072499A6910061B0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080504092499A6910061B0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080504122499A6EE0061B0B5 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		712C2579812D599D93261F14 /* Pods-SwiftUi_MVVM_Combine_SignUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi_MVVM_Combine_SignUp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUi_MVVM_Combine_SignUp/Pods-SwiftUi_MVVM_Combine_SignUp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0575A9E2A648DE6C04B156 /* Pods_SwiftUi_MVVM_Combine_SignUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUi_MVVM_Combine_SignUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2297D2081A05B0CE25B8D45 /* Pods-SwiftUi_MVVM_Combine_SignUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi_MVVM_Combine_SignUp.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi_MVVM_Combine_SignUp/Pods-SwiftUi_MVVM_Combine_SignUp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080503F52499A68F0061B0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2D97A5D1524EF08CE0C784 /* Pods_SwiftUi_MVVM_Combine_SignUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080503EF2499A68F0061B0B5 = {
+			isa = PBXGroup;
+			children = (
+				080503FA2499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp */,
+				080503F92499A68F0061B0B5 /* Products */,
+				569AFA507C627500DAFC892E /* Pods */,
+				3B1DDD0171F219776168B12E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		080503F92499A68F0061B0B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080503F82499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080503FA2499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				080504112499A6CD0061B0B5 /* ViewModels */,
+				080504102499A6C50061B0B5 /* Models */,
+				0805040F2499A6BF0061B0B5 /* Views */,
+				080503FB2499A68F0061B0B5 /* AppDelegate.swift */,
+				080503FD2499A68F0061B0B5 /* SceneDelegate.swift */,
+				080504012499A6910061B0B5 /* Assets.xcassets */,
+				080504062499A6910061B0B5 /* LaunchScreen.storyboard */,
+				080504092499A6910061B0B5 /* Info.plist */,
+				080504032499A6910061B0B5 /* Preview Content */,
+			);
+			path = SwiftUi_MVVM_Combine_SignUp;
+			sourceTree = "<group>";
+		};
+		080504032499A6910061B0B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				080504042499A6910061B0B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0805040F2499A6BF0061B0B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				080503FF2499A68F0061B0B5 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		080504102499A6C50061B0B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		080504112499A6CD0061B0B5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				080504122499A6EE0061B0B5 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3B1DDD0171F219776168B12E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D0575A9E2A648DE6C04B156 /* Pods_SwiftUi_MVVM_Combine_SignUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		569AFA507C627500DAFC892E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				712C2579812D599D93261F14 /* Pods-SwiftUi_MVVM_Combine_SignUp.debug.xcconfig */,
+				C2297D2081A05B0CE25B8D45 /* Pods-SwiftUi_MVVM_Combine_SignUp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080503F72499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0805040C2499A6910061B0B5 /* Build configuration list for PBXNativeTarget "SwiftUi_MVVM_Combine_SignUp" */;
+			buildPhases = (
+				B177F44D52E737D3DBA22DB0 /* [CP] Check Pods Manifest.lock */,
+				080503F42499A68F0061B0B5 /* Sources */,
+				080503F52499A68F0061B0B5 /* Frameworks */,
+				080503F62499A68F0061B0B5 /* Resources */,
+				EA6519F9BA105E6E1744CC94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUi_MVVM_Combine_SignUp;
+			productName = SwiftUi_MVVM_Combine_SignUp;
+			productReference = 080503F82499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080503F02499A68F0061B0B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jimmy Leu";
+				TargetAttributes = {
+					080503F72499A68F0061B0B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 080503F32499A68F0061B0B5 /* Build configuration list for PBXProject "SwiftUi_MVVM_Combine_SignUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080503EF2499A68F0061B0B5;
+			productRefGroup = 080503F92499A68F0061B0B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080503F72499A68F0061B0B5 /* SwiftUi_MVVM_Combine_SignUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080503F62499A68F0061B0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080504082499A6910061B0B5 /* LaunchScreen.storyboard in Resources */,
+				080504052499A6910061B0B5 /* Preview Assets.xcassets in Resources */,
+				080504022499A6910061B0B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B177F44D52E737D3DBA22DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUi_MVVM_Combine_SignUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6519F9BA105E6E1744CC94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUi_MVVM_Combine_SignUp/Pods-SwiftUi_MVVM_Combine_SignUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUi_MVVM_Combine_SignUp/Pods-SwiftUi_MVVM_Combine_SignUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUi_MVVM_Combine_SignUp/Pods-SwiftUi_MVVM_Combine_SignUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080503F42499A68F0061B0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080503FC2499A68F0061B0B5 /* AppDelegate.swift in Sources */,
+				080504132499A6EE0061B0B5 /* UserViewModel.swift in Sources */,
+				080503FE2499A68F0061B0B5 /* SceneDelegate.swift in Sources */,
+				080504002499A68F0061B0B5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		080504062499A6910061B0B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080504072499A6910061B0B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0805040A2499A6910061B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0805040B2499A6910061B0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0805040D2499A6910061B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712C2579812D599D93261F14 /* Pods-SwiftUi_MVVM_Combine_SignUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUi_MVVM_Combine_SignUp/Preview Content\"";
+				DEVELOPMENT_TEAM = EQW652JMS3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUi_MVVM_Combine_SignUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Calyx.SwiftUi-MVVM-Combine-SignUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0805040E2499A6910061B0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2297D2081A05B0CE25B8D45 /* Pods-SwiftUi_MVVM_Combine_SignUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUi_MVVM_Combine_SignUp/Preview Content\"";
+				DEVELOPMENT_TEAM = EQW652JMS3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUi_MVVM_Combine_SignUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Calyx.SwiftUi-MVVM-Combine-SignUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080503F32499A68F0061B0B5 /* Build configuration list for PBXProject "SwiftUi_MVVM_Combine_SignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0805040A2499A6910061B0B5 /* Debug */,
+				0805040B2499A6910061B0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0805040C2499A6910061B0B5 /* Build configuration list for PBXNativeTarget "SwiftUi_MVVM_Combine_SignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0805040D2499A6910061B0B5 /* Debug */,
+				0805040E2499A6910061B0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080503F02499A68F0061B0B5 /* Project object */;
+}
